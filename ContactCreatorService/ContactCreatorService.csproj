@@ -47,11 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contact.cs" />
-    <Compile Include="CreateContact.cs">
+    <None Include="ContactCheck">
       <SubType>Component</SubType>
-    </Compile>
+    </None>
     <Compile Include="CreateContact.Designer.cs">
-      <DependentUpon>CreateContact.cs</DependentUpon>
+      <DependentUpon>ContactCheck</DependentUpon>
     </Compile>
     <Compile Include="FileCheck.cs">
       <SubType>Component</SubType>

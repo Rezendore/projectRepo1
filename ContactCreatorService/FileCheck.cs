@@ -60,6 +60,9 @@ namespace ContactCreatorService
                     {   // new files are processed
                         fileName = fiNameSplit[0] + " - processing" + fiNameSplit[1];
 
+                        System.IO.File.Copy(file, File);
+
+                        
                     }
 
                 }
